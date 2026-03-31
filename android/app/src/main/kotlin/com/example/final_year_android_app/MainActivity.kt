@@ -1,4 +1,4 @@
-package com.example.final_year_android_app
+package com.ajay.ioa_incident_manager
 
 import io.flutter.embedding.android.FlutterActivity
 

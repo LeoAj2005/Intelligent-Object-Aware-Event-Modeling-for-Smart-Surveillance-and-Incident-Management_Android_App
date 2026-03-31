@@ -1,5 +1,9 @@
-name: final_year_android_app
-description: "A new Flutter project."
+name: ioa_incident_manager
+description: "An AI-driven Android application for real-time object detection and event modeling. Features automated incident management and smart surveillance analytics."
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icons/icon.png"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -43,6 +47,7 @@ dependencies:
   http: ^1.6.0
   audioplayers: ^6.6.0
   flutter_mjpeg: ^2.0.4
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:
@@ -66,6 +71,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/sounds/alarm.mp3
+    - assets/icons/icon.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

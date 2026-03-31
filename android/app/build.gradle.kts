@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.final_year_android_app"
+    namespace = "com.ajay.ioa_incident_manager"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -22,7 +22,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.final_year_android_app"
+        applicationId = "com.ajay.ioa_incident_manager"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
